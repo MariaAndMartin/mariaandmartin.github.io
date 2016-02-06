@@ -38,6 +38,7 @@ function submitForm(url, form){
     submitURL = submitURL.concat("submit=Submit");
     console.log(submitURL)
     req.open("GET",submitURL,true);
+    req.setRequestHeader("Access-Control-Allow-Origin","*")
     req.send();
 }
 
