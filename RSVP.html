@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <script src="js/my.js"></script>
 </head>
 <body>
   <nav class="white" role="navigation">
@@ -24,25 +25,35 @@
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
-
-  <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <br><br>
-        <h1 class="header center teal-text text-lighten-2">The best wedding ever</h1>
-        <div class="row center">
-          <h5 class="header col s12 light">Some said it was not possible.</h5>
+  <div class="container">
+    <div class="section">
+      <h3>Repondez S'ils Vous Plait</h3>
+        <form id="rsvp" action="" method="POST" target="no-target">
+        <h5>Will you make it?</h5>
+        <p>
+          <input name="entry.69463734" type="radio" id="yes" />
+          <label for="yes">Yes</label>
+        </p>
+        <p>
+          <input name="entry.69463734" type="radio" id="no" />
+          <label for="no">No</label>
+        </p>
+        <p>
+          <input class="with-gap" name="entry.69463734" type="radio" id="maybe"  />
+          <label for="maybe">Maybe</label>
+        </p>
+        <div class="row">
+            <div class="input-field col s12">
+              <textarea name="entry.2034397929" id="dietary" class="materialize-textarea"></textarea>
+              <label for="dietary">Any Dietary Requirements?</label>
+            </div>
         </div>
-        <div class="row center">
-          <a href="RSVP.html" id="rsvp" class="btn-large waves-effect waves-light teal lighten-1">RSVP NOW!</a>
-        </div>
-        <br><br>
+        <button id="rsvp-submit" type="submit" class="btn-large waves-effect waves-light teal lighten-1" onclick="submitForm('url', document.getElementById(&quot;rsvp&quot;))">Submit</button>
 
-      </div>
+</form>
+
     </div>
-    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
   </div>
-
 
   <div class="container">
     <div class="section">
@@ -159,6 +170,7 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+ 
 
   </body>
 </html>
