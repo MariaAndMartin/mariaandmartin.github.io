@@ -1,5 +1,6 @@
 function detectLang(){
 	var userLang = navigator.language || navigator.userLanguage; 
+    console.log("userlang is " + userLang);
  	return userLang;
 }
 
@@ -60,17 +61,16 @@ function translateIn(locale, allElementsId) {
 
         localeObject = contentObject[locale];
 
-        console.log(localeObject);
+        console.log(Object.keys(localeObject).length);
+        console.log(allElementsId.length);
 
-        for (i=0 ; i > allElementsId.length; i++) { // loops through the IDs of the page
-            
-            
+        for (i=0 ; i < allElementsId.length; i++) { // loops through the IDs of the page
 
-            for (j=0; j > localeObject.length; j++) { // loops through the JSON pieces
-
-                if(allElementsId[i] = localeObject[j]) { // if the ID is found within the JSON
+            for (j=0; j < Object.keys(localeObject).length; j++) { // loops through the JSON pieces
+                console.log(Object.keys(localeObject)[j]);
+                if(allElementsId[i] = Object.keys(localeObject)[j]) { // if the ID is found within the JSON
                     var el = document.getElementById(allElementsId[i]);
-                    el.innerHTML = localeObject[j][0];
+                    el.innerHTML = localeObject[allElementsId[i]];
                 }
             }
             
