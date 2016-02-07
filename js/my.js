@@ -53,7 +53,7 @@ function translate() {
 function translateIn(locale, allElementsId) {
     // Parse JSON string into object
 
-    $.getJSON("http://mariaandmartin.github.io/js/content.json", function(json) {
+    $.getJSON("https://mariaandmartin.github.io/js/content.json", function(json) {
         console.log(json);
 
         var contentObject = JSON.parse(JSON.stringify(json));
