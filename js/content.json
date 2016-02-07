@@ -1,12 +1,14 @@
 {
 	"en-GB":{
-		"logo":"It's happening"
+		"logo-container":"It's happening",
+		"title": "english title"
 		},
 	"it-IT":{
-		"logo": "Sta per succedere"
+		"logo-container": "Sta per succedere",
+		"title": "italian title"
 		},
 	"fr-FR":{
-		"logo": "Le moment est arrivé"
-
+		"logo-container": "Le moment est arrivé",
+		"title": "french title"
 	}
 }
