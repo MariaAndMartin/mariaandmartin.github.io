@@ -26,32 +26,43 @@ function getAllElements(){
 	}
 	return allIds
 }
-function translate(){
-	loadJSON(function(response) {
-  		// Parse JSON string into object
-    	var contentObject = JSON.parse(response);
-    	// Get language
-    	var lang = detectLang();
-    	//find all elements
-    	var allElementsId = getAllElements();
-    	//translate page
-    	if (lang.indexOf("fr")){
-    		//translate in french
-    		for (i=0 ; i > allElementsId.length; i++){
-    			var el = document.getElementById(allElementsId[i]);
-    			//check if this element is in the content json details
-    			var frContent = contentObject[]
-    		}
+function translate() {
 
-    	} else {
-    		//translate in italian
-    	}
+	// Get language
+	var lang = detectLang();
+	//find all elements
+	var allElementsId = getAllElements();
 
+	//translate page
+	if (lang.indexOf("fr") > -1) {
+		//translate in french
+        translateIn("fr-FR", allElementsId);
 
- 	});
-
-
+	} else if (lang.indexOf("it") > -1) {
+		//translate in italian
+        translateIn("it-IT", allElementsId);
+	} else {
+        // translate in english
+        translateIn("en-GB", allElementsId);
+    }
 }
 
+function translateIn(locale, allElementsId) {
+    // Parse JSON string into object
+
+    var dataJson = $.getJSON("content.json", function(json) {
+        console.log(json); // this will show the info it in firebug console
+    });
+    var contentObject = JSON.parse(dataJson);
+
+    console.log(contentObject);
+    for (i=0 ; i > allElementsId.length; i++) {
+
+        var el = document.getElementById(allElementsId[i]);
+        //check if this element is in the content json details
+        //var frContent = contentObject[];    
+
+    }
+}
 
 translate();
