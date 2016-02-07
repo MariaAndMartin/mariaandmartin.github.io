@@ -60,6 +60,9 @@ function translateIn(locale, allElementsId) {
         var contentObject = JSON.parse(JSON.stringify(json));
 
         localeObject = contentObject[locale];
+        //change html language declaration
+        var langDecl = document.getElementById("lang");
+        langDecl.setAttribute("lang",locale)
 
         console.log(Object.keys(localeObject).length);
         console.log(allElementsId.length);
