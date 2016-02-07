@@ -9,7 +9,7 @@
     console.log(submitURL);
     $(this)[0].action=submitURL;});*/
 
-function submitForm(url, form){
+function submitForm(form){
     var url = "https://docs.google.com/forms/d/1Nc3aCH5E5p-_17PmCJxURf-Rks5X0QxsHY_o4ElHdNM/formResponse?";
     var payload = new Object();
     for (i=0; i < form.elements.length -1; i++){
@@ -30,12 +30,12 @@ function submitForm(url, form){
     }
     // create httprequest object
     var req = new XMLHttpRequest();
-    var submitURL = "";
+    var params = "";
     // create url for the request
     for (var k in payload){
-        var submitURL = submitURL.concat(String(k),"=",String(payload[k]),"&");
+        var params = params.concat(String(k),"=",String(payload[k]),"&");
     }
-    submitURL = submitURL.concat("submit=Submit");
+    var submitURL = url.concat(params,"submit=Submit");
     console.log(submitURL)
     req.open("GET",submitURL,true);
     req.setRequestHeader("Access-Control-Allow-Origin","*")
