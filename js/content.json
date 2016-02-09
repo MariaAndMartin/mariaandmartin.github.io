@@ -5,12 +5,17 @@
 		},
 	"it-IT":{
 		"logo-container": "Sta per succedere",
-		"title": "italian title",
+		"title": "Il matrimonio perfetto",
+		"punchline": "Qualcuno diceva non sarebbe mai accaduto",
 		"response": "Partecipazioni",
 		"venue": "Cerimonia",
 		"gifts": "Regali",
-		"updates": "Seguici"
-		
+		"updates": "Seguici",
+		"rsvp": "Conferma!",
+		"martindesc": "Campione esemplare dell'essere Francese: Martin rappresenta il gentiluomo per eccellenza.",
+		"weddingdesc": "Qualche parola che ispiri fiducia nell'istituzione del matrimonio.",
+		"celeb": "Celebriamo!",
+		"mariadesc": "Praticamente perfetta sotto ogni aspetto."
 		},
 	"fr-FR":{
 		"logo-container": "Le moment est arrivé",

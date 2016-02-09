@@ -83,7 +83,7 @@ function translateIn(locale, allElementsId) {
                     el.innerHTML = localeObject[allElementsId[i]];
                 } else {
                 	// there is no id matching
-                	console.log("did not find matching translation")
+                	console.log("did not find matching translation for " + String(allElementsId[i]))
                 	continue;
                 }
             }
