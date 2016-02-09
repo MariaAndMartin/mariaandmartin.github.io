@@ -78,14 +78,17 @@ function translateIn(locale, allElementsId) {
 
             for (j=0; j < Object.keys(localeObject).length; j++) { // loops through the JSON pieces
                 console.log(Object.keys(localeObject)[j]);
-                if(allElementsId[i] = Object.keys(localeObject)[j]) { // if the ID is found within the JSON
+                if(allElementsId[i] == Object.keys(localeObject)[j]) { // if the ID is found within the JSON
                     var el = document.getElementById(allElementsId[i]);
                     el.innerHTML = localeObject[allElementsId[i]];
+                } else {
+                	// there is no id matching
+                	console.log("did not find matching translation")
+                	continue;
                 }
             }
             
 
-            // check if this element is in the content json details
 
        }
     });
