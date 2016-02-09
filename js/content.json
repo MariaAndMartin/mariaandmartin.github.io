@@ -1,7 +1,8 @@
 {
 	"en-GB":{
 		"logo-container":"It's happening",
-		"title": "english title"
+		"title": "english title",
+		"story": "http://timemapper.okfnlabs.org/supermarycherry/maria--martins-stoy?embed=1"
 		},
 	"it-IT":{
 		"logo-container": "Sta per succedere",
@@ -15,10 +16,12 @@
 		"martindesc": "Campione esemplare dell'essere Francese: Martin rappresenta il gentiluomo per eccellenza.",
 		"weddingdesc": "Qualche parola che ispiri fiducia nell'istituzione del matrimonio.",
 		"celeb": "Celebriamo!",
-		"mariadesc": "Praticamente perfetta sotto ogni aspetto."
+		"mariadesc": "Praticamente perfetta sotto ogni aspetto.",
+		"story": "http://timemapper.okfnlabs.org/supermarycherry/maria--martins-story-it?embed=1"
 		},
 	"fr-FR":{
 		"logo-container": "Le moment est arrivé",
-		"title": "french title"
+		"title": "french title",
+		"story": "http://timemapper.okfnlabs.org/supermarycherry/maria--martins-story-fr?embed=1"
 	}
 }
