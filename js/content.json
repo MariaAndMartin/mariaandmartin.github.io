@@ -5,7 +5,11 @@
 		},
 	"it-IT":{
 		"logo-container": "Sta per succedere",
-		"title": "italian title"
+		"title": "italian title",
+		"response": "Partecipazioni",
+		"venue": "Cerimonia",
+		"gifts": "Regali",
+		"updates": "Aggiornamenti"
 		},
 	"fr-FR":{
 		"logo-container": "Le moment est arrivé",
