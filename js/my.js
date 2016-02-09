@@ -27,10 +27,17 @@ function getAllElements(){
 	}
 	return allIds
 }
-function translate() {
 
-	// Get language
-	var lang = detectLang();
+function translate(language) {
+
+	if (language === undefined){
+		// Get language
+		var lang = detectLang();
+	} else {
+		// set language to user selected
+		var lang = language;
+	}
+	
 	//find all elements
 	var allElementsId = getAllElements();
 
@@ -83,8 +90,3 @@ function translateIn(locale, allElementsId) {
        }
     });
 }
-
-$(document).ready(function () {
-    console.log("launches translate");
-    translate();
-});
