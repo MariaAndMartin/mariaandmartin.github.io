@@ -28,41 +28,29 @@ function getAllElements(){
 	return allIds
 }
 
-function translate(language) {
+function translate() {
 
-	if (language === undefined){
-		// Get language
-		var lang = detectLang();
-	} else {
-		// set language to user selected
-		var lang = language;
-	}
-	
-	//find all elements
-	var allElementsId = getAllElements();
-
+	var lang = detectLang();
+	console.log(lang);
 	//translate page
 	if (lang.indexOf("fr") > -1) {
 		//translate in french
-        console.log("launches translatein french");
-        translateIn("fr-FR", allElementsId);
+        translateIn("fr-FR");
 
 	} else if (lang.indexOf("it") > -1) {
 		//translate in italian
-        console.log("launches translatein italian");
-        translateIn("it-IT", allElementsId);
+        translateIn("it-IT");
 	} else {
         // translate in english
-        console.log("launches translatein english");
-        translateIn("en-GB", allElementsId);
+        translateIn("en-GB");
     }
 }
 
-function translateIn(locale, allElementsId) {
+function translateIn(locale) {
     // Parse JSON string into object
-
+    console.log("executing translatein for " + locale);
+    var allElementsId = getAllElements();
     $.getJSON("/js/content.json", function(json) {
-        console.log(json);
 
         var contentObject = JSON.parse(JSON.stringify(json));
 
@@ -71,13 +59,10 @@ function translateIn(locale, allElementsId) {
         var langDecl = document.getElementById("lang");
         langDecl.setAttribute("lang",locale)
 
-        console.log(Object.keys(localeObject).length);
-        console.log(allElementsId.length);
 
         for (i=0 ; i < allElementsId.length; i++) { // loops through the IDs of the page
 
             for (j=0; j < Object.keys(localeObject).length; j++) { // loops through the JSON pieces
-                console.log(Object.keys(localeObject)[j]);
                 if(allElementsId[i] == Object.keys(localeObject)[j]) { 
                 	// if the ID is found within the JSON
                     var el = document.getElementById(allElementsId[i]);
@@ -89,7 +74,7 @@ function translateIn(locale, allElementsId) {
                     
                 } else {
                 	// there is no id matching
-                	console.log("did not find matching translation for " + String(allElementsId[i]))
+                	//console.log("did not find matching translation for " + String(allElementsId[i]))
                 	continue;
                 }
             }
