@@ -1,7 +1,7 @@
 {
 	"en-GB":{
 		"logo-container":"It's happening",
-		"title": "english title",
+		"title": "Maria &amp; Martin",
 		"story": "http://timemapper.okfnlabs.org/supermarycherry/maria--martins-stoy?embed=1"
 		},
 	"it-IT":{
@@ -17,7 +17,8 @@
 		"weddingdesc": "Qualche parola che ispiri fiducia nell'istituzione del matrimonio.",
 		"celeb": "Celebriamo!",
 		"mariadesc": "Praticamente perfetta sotto ogni aspetto.",
-		"story": "http://timemapper.okfnlabs.org/supermarycherry/maria--martins-story-it?embed=1"
+		"story": "http://timemapper.okfnlabs.org/supermarycherry/maria--martins-story-it?embed=1",
+		"timeline":"La nostra storia"
 		},
 	"fr-FR":{
 		"logo-container": "Le moment est arrivé",
