@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="icon" href="favicon.ico">
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/my.js"></script>
@@ -65,7 +66,7 @@
             <h2 class="center brown-text"><i class="material-icons">face</i></h2>
             <h5 class="center">Martin</h5>
 
-            <p class="light" id="martindesc">Exquisite sample of Frenchness Martin embodies the perfect man and the perfect cuddly lion.</p>
+            <p class="light" id="martindesc">Exquisite sample of Frenchness, Martin embodies an ideal of perfect manliness.</p>
           </div>
         </div>
 
@@ -138,31 +139,32 @@
             <h2 class="center brown-text"><i class="material-icons">language</i></h2>
 
               <!-- Dropdown Trigger -->
-              <a class='dropdown-button btn' href='#' data-activates='dropdown1'>Choose language</a>
+              <a class='dropdown-button btn' href='#' data-activates='dropdown1'id='chooseLanguage'>Choose language</a>
 
               <!-- Dropdown Structure -->
               <ul id='dropdown1' class='dropdown-content'>
                 <li><a id="ENoption">English</a></li>
-                <li><a id="FRoption">Italian</a></li>
-                <li><a id="IToption">French</a></li>
+                <li><a id="IToption">Italian</a></li>
+                <li><a id="FRoption">French</a></li>
               </ul>
           </div>
   
 
-
+      </div>
     </div>
   </div>
+
   <footer class="page-footer teal">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
           <h5 class="white-text">Maria &amp; Martin</h5>
-          <p class="grey-text text-lighten-4">It's us, from Google Dublin, to thriving London and Grove Park.</p>
+          <p class="grey-text text-lighten-4" id="footerDesc">It's us, from Google Dublin, to bustling London and Grove Park.</p>
 
 
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Good to know</h5>
+          <h5 class="white-text" id="goodToKnow ">Good to know</h5>
           <ul>
             <li><a id="response" class="white-text" href="content/RSVP.html">Response</a></li>
             <li><a id="venue"class="white-text"href="content/Venue.html">Venue</a></li>

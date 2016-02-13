@@ -2,7 +2,21 @@
 	"en-GB":{
 		"logo-container":"It's happening",
 		"title": "english title",
-		"story": "http://timemapper.okfnlabs.org/supermarycherry/maria--martins-stoy?embed=1"
+		"punchline": "Some said it was not possible.",
+		"response": "Response",
+		"venue": "Venue",
+		"gifts": "Gifts",
+		"updates": "Updates",
+		"rsvp": "RSVP NOW!",
+		"martindesc": "Exquisite sample of Frenchness, Martin embodies an ideal of perfect manliness.",
+		"weddingdesc": "Getting married is about a promise to love each other indefinitely. It is a joyful, fun moment to share with friends and family all around. Don't miss the opportunity of sharing unforgettable memories with those you love.",
+		"celeb": "Celebriamo!",
+		"mariadesc": "Basically perfect in all regards.",
+		"story": "http://timemapper.okfnlabs.org/supermarycherry/maria--martins-stoy?embed=1",
+		"chooseLanguage": "Choose Language",
+		"FRoption": "French",
+		"IToption": "Italian",
+		"ENoption": "English"
 		},
 	"it-IT":{
 		"logo-container": "Sta per succedere",
@@ -17,11 +31,30 @@
 		"weddingdesc": "Qualche parola che ispiri fiducia nell'istituzione del matrimonio.",
 		"celeb": "Celebriamo!",
 		"mariadesc": "Praticamente perfetta sotto ogni aspetto.",
-		"story": "http://timemapper.okfnlabs.org/supermarycherry/maria--martins-story-it?embed=1"
+		"story": "http://timemapper.okfnlabs.org/supermarycherry/maria--martins-story-it?embed=1",
+		"chooseLanguage": "Choose Language",
+		"FRoption": "Francese",
+		"IToption": "Italiano",
+		"ENoption": "Inglese"
 		},
 	"fr-FR":{
-		"logo-container": "Le moment est arrivé",
+		"logo-container": "Le moment est venu",
 		"title": "french title",
-		"story": "http://timemapper.okfnlabs.org/supermarycherry/maria--martins-story-fr?embed=1"
+		"punchline": "Personne n'y croyait",
+		"response": "Réponses",
+		"venue": "Cérémonie",
+		"gifts": "Liste de mariage",
+		"updates": "Mises à jour",
+		"rsvp": "Confirmer votre venu",
+		"martindesc": "Représentant exemplaire de la culture française, Martin est un gentilhomme per execellence.",
+		"weddingdesc": "'Si j'avais été invité j'aurais vraiment adoré venir !' Nelson Mandela",
+		"celeb": "Celebriamo!",
+		"mariadesc": "Pratiquement parfaite sous tous aspects.",
+		"story": "http://timemapper.okfnlabs.org/supermarycherry/maria--martins-story-fr?embed=1",
+		"chooseLanguage": "Langues",
+		"FRoption": "Français",
+		"IToption": "Italien",
+		"ENoption": "Anglais",
+		"celeb": "Célébrons ensemble !"
 	}
 }
