@@ -84,3 +84,7 @@ function translateIn(locale) {
        }
     });
 }
+
+function addtoStorage(locale) { //get executed when the user clicks on the dropdown1
+    localStorage.setItem("locale",locale);
+}
