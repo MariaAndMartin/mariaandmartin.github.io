@@ -30,6 +30,10 @@
 		"venue": "Cerimonia",
 		"gifts": "Regali",
 		"updates": "Seguici",
+		"responseF": "Partecipazioni",
+		"venueF": "Cerimonia",
+		"giftsF": "Regali",
+		"updatesF": "Seguici",
 		"rsvp": "Conferma!",
 		"martindesc": "Campione esemplare dell'essere Francese: Martin rappresenta il gentiluomo per eccellenza.",
 		"weddingdesc": "Qualche parola che ispiri fiducia nell'istituzione del matrimonio.",
@@ -43,8 +47,13 @@
 		"ENoption": "Inglese",
 		"flights":{
 			"href":"http://www.skyscanner.net/transport/flights/it/nap/160301/160302",
-			"innerHTML": "Voli"
-			}
+			"innerHTML": "Cerca Voli"
+			},
+		"footerDesc":"Siamo Noi! Da Google Dublino, a Londra fino ad oggi!",
+		"procida": "Nel cuore del Mediterraneo.",
+		"cascades":"Dalle cascate di Rollours",
+		"confirmasap": "Confirma appena puoi e tieni aggiornata la tua disponibilit&aacute;",
+		"rsvp2":"Conferma!"
 		},
 	"fr-FR":{
 		"logo-container": "Le moment est venu",
@@ -54,6 +63,10 @@
 		"venue": "Cérémonie",
 		"gifts": "Liste de mariage",
 		"updates": "Mises à jour",
+		"responseF": "Réponses",
+		"venueF": "Cérémonie",
+		"giftsF": "Liste de mariage",
+		"updatesF": "Mises à jour",
 		"rsvp": "Confirmer votre venu",
 		"martindesc": "Représentant exemplaire de la culture française, Martin est un gentilhomme per execellence.",
 		"weddingdesc": "'Si j'avais été invité j'aurais vraiment adoré venir !' Nelson Mandela",
@@ -69,7 +82,12 @@
 		"flights":{
 			"href":"http://www.skyscanner.net/transport/flights/fr/nap/160301/160302",
 			"innerHTML":"French flights"
-			}
+			},
+		"footerDesc":"french footer",
+		"procida": "french procida line",
+		"cascades":"french cascades line",
+		"confirmasap": "french please confirm asap",
+				"rsvp2":"Conferma!"
 		}
 }
 
