@@ -16,7 +16,11 @@
 		"chooseLanguage": "Choose Language",
 		"FRoption": "French",
 		"IToption": "Italian",
-		"ENoption": "English"
+		"ENoption": "English",
+		"flights":{
+			"href":"http://www.skyscanner.net/transport/flights/uk/nap/160301/160302",
+			"innerHTML": "Check Flights"
+			}
 		},
 	"it-IT":{
 		"logo-container": "Sta per succedere",
@@ -37,7 +41,10 @@
 		"FRoption": "Francese",
 		"IToption": "Italiano",
 		"ENoption": "Inglese",
-		"flights":"http://www.skyscanner.net/transport/flights/it/nap/160301/160302"
+		"flights":{
+			"href":"http://www.skyscanner.net/transport/flights/it/nap/160301/160302",
+			"innerHTML": "Voli"
+			}
 		},
 	"fr-FR":{
 		"logo-container": "Le moment est venu",
@@ -57,9 +64,12 @@
 		"FRoption": "Français",
 		"IToption": "Italien",
 		"ENoption": "Anglais",
-		"celeb": "Célébrons ensemble !"
-	}
+		"celeb": "Célébrons ensemble !",
+		"timeline":"french timeline",
+		"flights":{
+			"href":"http://www.skyscanner.net/transport/flights/fr/nap/160301/160302",
+			"innerHTML":"French flights"
+			}
+		}
 }
 
-
-http://www.skyscanner.net/transport/flights/uk/nap/160301/160302

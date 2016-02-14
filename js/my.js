@@ -69,16 +69,15 @@ function translateIn(locale) {
                     if (allElementsId[i] == "story"){
                     	el.setAttribute("src",localeObject[allElementsId[i]]);
                     } else if(allElementsId[i]=="flights"){
-                	  	el.setAttribute("href", localeObject[allElementsId[i]])
-                	  	console.log typeof(localeObject)
+                	  	var flights_data = localeObject[allElementsId[i]];
+                	  	el.setAttribute("href", flights_data['href']);
+                	  	el.innerHTML = flights_data['innerHTML'];
                     }
                     else{
                     	el.innerHTML = localeObject[allElementsId[i]];
                     }
                     
                 } else {
-                	// there is no id matching
-                	//console.log("did not find matching translation for " + String(allElementsId[i]))
                 	continue;
                 }
             }
