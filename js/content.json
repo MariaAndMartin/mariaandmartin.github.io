@@ -36,7 +36,8 @@
 		"chooseLanguage": "Seleziona Lingua",
 		"FRoption": "Francese",
 		"IToption": "Italiano",
-		"ENoption": "Inglese"
+		"ENoption": "Inglese",
+		"flights":"http://www.skyscanner.net/transport/flights/it/nap/160301/160302"
 		},
 	"fr-FR":{
 		"logo-container": "Le moment est venu",
@@ -59,3 +60,6 @@
 		"celeb": "Célébrons ensemble !"
 	}
 }
+
+
+http://www.skyscanner.net/transport/flights/uk/nap/160301/160302
