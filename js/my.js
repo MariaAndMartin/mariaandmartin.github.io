@@ -50,10 +50,11 @@ function translateIn(locale) {
     // Parse JSON string into object
     console.log("executing translatein for " + locale);
     var allElementsId = getAllElements();
+    console.log("got all elements");
     $.getJSON("/js/content.json", function(json) {
 
         var contentObject = JSON.parse(JSON.stringify(json));
-
+        console.log("parsed the json.");
         localeObject = contentObject[locale];
         //change html language declaration
         var langDecl = document.getElementById("lang");
