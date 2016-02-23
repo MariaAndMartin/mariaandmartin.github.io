@@ -53,7 +53,18 @@
 		"procida": "Nel cuore del Mediterraneo.",
 		"cascades":"Dalle cascate di Rollours",
 		"confirmasap": "Confirma appena puoi e tieni aggiornata la tua disponibilit&aacute;",
-		"rsvp2":"Conferma!"
+		"rsvp2":"Conferma!",
+		"cometo": "Vieni a Procida",
+		"beautifulvenue": "Raggiungere Procida è semplice",
+		"transport":"Trasporti",
+		"accomodation":"Alloggio",
+		"agenda":"Programma",
+		"agendaDesc":"La cerimonia avviene il dd/mm alle hh:mm presso yyyyy. Il ricevimento comincia alle ore hh:mm presso xxxx",
+		"transpDesc":"Napoli(CAP) &egrave; l&#39;aereoporto pi&uacute vicino. Controlla gli orari dei mezzi via mare su: <a href=\"http://www.procida.net/napoliprocida.html\" target=\"_blank\">Sito Trasporti</a> o scarica la app <a href=\"https://play.google.com/store/apps/details?id=com.porfirio.orariprocida2011\" target=\"_blank\">Uno Procida Residente </a>.",
+		"accomDesc":"Consigliamo questi hotel per la permanenza:",
+		"venueDesc": "Tra cielo e mare",
+		"receptionDesc": "In un giardino bagnato dal sole"
+
 		},
 	"fr-FR":{
 		"logo-container": "Le moment est venu",
@@ -87,7 +98,18 @@
 		"procida": "french procida line",
 		"cascades":"french cascades line",
 		"confirmasap": "french please confirm asap",
-				"rsvp2":"Conferma!"
+		"rsvp2":"Conferma!",
+		"cometo":"Venez a Procida",
+		"beautifulvenue":"Visiter Procida est simple",
+		"transport":"voyager",
+		"accomodation":"hotels",
+		"agenda":"whatever in french",
+		"agendaDesc":"description of agenda",
+		"transpDesc":"transport description",
+		"accomDesc":"accomodation description",
+		"venueDesc": "Parmi les citrons de Procida",
+		"receptionDesc":"more info about reception",
+
 		}
 }
 
