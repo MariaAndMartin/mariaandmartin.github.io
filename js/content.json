@@ -1,6 +1,5 @@
 {
 	"en-GB":{
-		"logo-container":"It's happening",
 		"title": "Maria &amp; Martin",
 		"punchline": "Some said it was not possible.",
 		"response": "Response",
@@ -23,7 +22,6 @@
 			}
 		},
 	"it-IT":{
-		"logo-container": "Sta per succedere",
 		"title": "Il matrimonio perfetto",
 		"punchline": "Qualcuno diceva non sarebbe mai accaduto",
 		"response": "Partecipazioni",
@@ -66,7 +64,6 @@
 		"receptionDesc": "In un giardino bagnato dal sole"
 		},
 	"fr-FR":{
-		"logo-container": "Le moment est venu",
 		"title": "french title",
 		"punchline": "Personne n'y croyait",
 		"response": "Réponses",
