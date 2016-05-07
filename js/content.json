@@ -36,7 +36,9 @@
 		"agendadesc": "The ceremony is on 24/06/2017 at 05:00 pm at the Church of Madonna delle Grazie, in Piazza dei Martiri, Procida. Reception is at Hotel Savoia starting at 19:30. Cabs will be provided for the transport.",
 		"accomDesc":"Good, comfortable accomodation is available at:",
 		"venueDesc": "In the midst of Procida lemon trees...",
-		"receptionDesc":"More info about the reception"
+		"receptionDesc":"More info about the reception",
+		"graziella": "On the traces of Graziella and Il Postino",
+		"contactdesc": "If you've got any question or doubt on logistics, feel free to reach out at <a href='mailto:mariaandmartino@gmail.com' target ='_top' >mariaandmartino@gmail.com</a>."
 		},
 	"it-IT":{
 		"form":"https://docs.google.com/forms/d/18913H0MUPSFzhFNAoENNDOXuDy9p-mgvNYAyvOykId4/viewform?embedded=true",
@@ -82,7 +84,10 @@
 		"accomDesc":"Consigliamo questi hotel per la permanenza:",
 		"venueDesc": "Tra cielo e mare",
 		"receptionDesc": "In un giardino bagnato dal sole",
-		"goodToKnow": "Buono a sapersi"
+		"goodToKnow": "Buono a sapersi",
+		"graziella": "On the traces of Graziella and Il Postino",
+		"contactdesc": "If you've got any question or doubt on logistics, feel free to reach out at <a href='mailto:mariaandmartino@gmail.com' target ='_top' >mariaandmartino@gmail.com</a>."
+
 		},
 	"fr-FR":{
 		"form":"https://docs.google.com/forms/d/1gTF58LFmjyS79x6iQ019KEtjZ9qaH43qtjhjWzAbvJo/viewform?embedded=true",
@@ -127,8 +132,9 @@
 		"transpDesc":"L'aéroport le plus proche est Naples. Une fois arrivé à l'aéroport, il vous faudra vous rendre sur le port de Naples pour prendre un bateau jusqu'à Procida. Les horaires des bateaux sont disponibles sur le <a href=\"http://www.procida.net/napoliprocida.html\" target=\"_blank\">site de la ville de Procida</a> ou via l'application Android <a href=\"https://play.google.com/store/apps/details?id=com.porfirio.orariprocida2011\" target=\"_blank\">Uno Procida Residente </a>.",
 		"accomDesc":"Nous conseillons les hôtels suivants :",
 		"venueDesc": "Au milieu des citronniers...",
-		"receptionDesc":"Plus d'infos sur la cérémonie."
-
+		"receptionDesc":"Plus d'infos sur la cérémonie.",
+		"graziella": "Sur les traces de Graziella et 'Il Postino'",
+		"contactdesc": "Pour toute question sur la logistique ou la cérémonie, vous pouvez nous contacter à mariaandmartino@gmail.com."
 		}
 }
 
