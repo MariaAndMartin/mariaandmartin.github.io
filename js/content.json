@@ -8,7 +8,7 @@
 		"updates": "Updates",
 		"rsvp": "RSVP NOW!",
 		"martindesc": "Exquisite sample of Frenchness, Martin embodies an ideal of perfect manliness.",
-		"weddingdesc": "Getting married is about a promise to love each other indefinitely. It is a joyful, fun moment to share with friends and family all around. Don't miss the opportunity of sharing unforgettable memories with those you love.",
+		"weddingdesc": "The start of a new family!",
 		"celeb": "Let's celebrate!",
 		"mariadesc": "Basically perfect in all regards.",
 		"story": "http://timemapper.okfnlabs.org/supermarycherry/maria--martins-stoy?embed=1",
@@ -22,9 +22,9 @@
 			}
 		},
 	"it-IT":{
-		"title": "Il matrimonio perfetto",
-		"punchline": "Qualcuno diceva non sarebbe mai accaduto",
-		"response": "Partecipazioni",
+		"title": "24 Giugno 2017",
+		"punchline": "Festeggia con noi.",
+		"response": "Conferma",
 		"venue": "Cerimonia",
 		"gifts": "Regali",
 		"updates": "Seguici",
@@ -33,8 +33,8 @@
 		"giftsF": "Regali",
 		"updatesF": "Seguici",
 		"rsvp": "Conferma!",
-		"martindesc": "Campione esemplare dell'essere Francese: Martin rappresenta il gentiluomo per eccellenza.",
-		"weddingdesc": "Qualche parola che ispiri fiducia nell'istituzione del matrimonio.",
+		"martindesc": "'Nu bravo 'uaglione' che ama il formaggio e le cose buone.",
+		"weddingdesc": "La gioia di una nuova famiglia!",
 		"celeb": "Celebriamo!",
 		"mariadesc": "Praticamente perfetta sotto ogni aspetto.",
 		"story": "http://timemapper.okfnlabs.org/supermarycherry/maria--martins-story-it?embed=1",
@@ -61,7 +61,8 @@
 		"transpDesc":"Napoli (CAP) &egrave; l&#39;aereoporto pi&uacute vicino. Controlla gli orari dei mezzi via mare su: <a href=\"http://www.procida.net/napoliprocida.html\" target=\"_blank\">Sito Trasporti</a> o scarica la app <a href=\"https://play.google.com/store/apps/details?id=com.porfirio.orariprocida2011\" target=\"_blank\">Uno Procida Residente </a>.",
 		"accomDesc":"Consigliamo questi hotel per la permanenza:",
 		"venueDesc": "Tra cielo e mare",
-		"receptionDesc": "In un giardino bagnato dal sole"
+		"receptionDesc": "In un giardino bagnato dal sole",
+		"goodToKnow": "Buono a sapersi"
 		},
 	"fr-FR":{
 		"title": "french title",
