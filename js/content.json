@@ -22,6 +22,7 @@
 			}
 		},
 	"it-IT":{
+		"form":"https://docs.google.com/forms/d/18913H0MUPSFzhFNAoENNDOXuDy9p-mgvNYAyvOykId4/viewform?embedded=true",
 		"title": "24 Giugno 2017",
 		"punchline": "Festeggia con noi.",
 		"response": "Conferma",
@@ -65,6 +66,7 @@
 		"goodToKnow": "Buono a sapersi"
 		},
 	"fr-FR":{
+		"form":"https://docs.google.com/forms/d/1gTF58LFmjyS79x6iQ019KEtjZ9qaH43qtjhjWzAbvJo/viewform?embedded=true",
 		"title": "french title",
 		"punchline": "Personne n'y croyait",
 		"response": "Réponses",

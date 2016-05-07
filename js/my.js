@@ -69,6 +69,8 @@ function translateIn(locale) {
                     var el = document.getElementById(allElementsId[i]);
                     if (allElementsId[i] == "story"){
                     	el.setAttribute("src",localeObject[allElementsId[i]]);
+                    } else if (allElementsId[i] == "form"){
+                        el.setAttribute("src",localeObject[allElementsId[i]])
                     } else if(allElementsId[i]=="flights"){
                 	  	var flights_data = localeObject[allElementsId[i]];
                 	  	el.setAttribute("href", flights_data['href']);
