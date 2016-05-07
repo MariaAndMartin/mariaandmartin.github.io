@@ -59,12 +59,11 @@
 		"transport":"Trasporti",
 		"accomodation":"Alloggio",
 		"agenda":"Programma",
-		"agendaDesc":"La cerimonia avviene il dd/mm alle hh:mm presso yyyyy. Il ricevimento comincia alle ore hh:mm presso xxxx",
-		"transpDesc":"Napoli(CAP) &egrave; l&#39;aereoporto pi&uacute vicino. Controlla gli orari dei mezzi via mare su: <a href=\"http://www.procida.net/napoliprocida.html\" target=\"_blank\">Sito Trasporti</a> o scarica la app <a href=\"https://play.google.com/store/apps/details?id=com.porfirio.orariprocida2011\" target=\"_blank\">Uno Procida Residente </a>.",
+		"agendaDesc":"La cerimonia avverr&aacute; il 24/06/2017 alle 5:00 pm presso il santuario della Madonna delle Grazie, Piazza dei Martiri, Procida. Il ricevimento comincier&aacute; alle ore 7:30 om presso l'Hotel Savoia. Navette saranno disponibili dopo la cerimonia",
+		"transpDesc":"Napoli (CAP) &egrave; l&#39;aereoporto pi&uacute vicino. Controlla gli orari dei mezzi via mare su: <a href=\"http://www.procida.net/napoliprocida.html\" target=\"_blank\">Sito Trasporti</a> o scarica la app <a href=\"https://play.google.com/store/apps/details?id=com.porfirio.orariprocida2011\" target=\"_blank\">Uno Procida Residente </a>.",
 		"accomDesc":"Consigliamo questi hotel per la permanenza:",
 		"venueDesc": "Tra cielo e mare",
 		"receptionDesc": "In un giardino bagnato dal sole"
-
 		},
 	"fr-FR":{
 		"logo-container": "Le moment est venu",
