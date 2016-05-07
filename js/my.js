@@ -67,7 +67,7 @@ function translateIn(locale) {
                 if(allElementsId[i] == Object.keys(localeObject)[j]) { 
                 	// if the ID is found within the JSON
                     var el = document.getElementById(allElementsId[i]);
-                    if (allElementsId[i] == "story"){
+                    if (allElementsId[i] == "storymapper"){
                     	el.setAttribute("src",localeObject[allElementsId[i]]);
                     } else if (allElementsId[i] == "form"){
                         el.setAttribute("src",localeObject[allElementsId[i]]);
