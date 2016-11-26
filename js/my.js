@@ -52,7 +52,7 @@ function translateIn(locale) {
     var allElementsId = getAllElements();
     console.log("got all elements");
     $.getJSON("/js/content.json", function(json) {
-
+        console.log("parsing JSON");
         var contentObject = JSON.parse(JSON.stringify(json));
         console.log("parsed the json.");
         localeObject = contentObject[locale];
@@ -67,10 +67,10 @@ function translateIn(locale) {
                 if(allElementsId[i] == Object.keys(localeObject)[j]) { 
                 	// if the ID is found within the JSON
                     var el = document.getElementById(allElementsId[i]);
-                    if (allElementsId[i] == "story"){
+                    if (allElementsId[i] == "storymapper"){
                     	el.setAttribute("src",localeObject[allElementsId[i]]);
                     } else if (allElementsId[i] == "form"){
-                        el.setAttribute("src",localeObject[allElementsId[i]])
+                        el.setAttribute("src",localeObject[allElementsId[i]]);
                     } else if(allElementsId[i]=="flights"){
                 	  	var flights_data = localeObject[allElementsId[i]];
                 	  	el.setAttribute("href", flights_data['href']);
