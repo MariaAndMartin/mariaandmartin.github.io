@@ -41,6 +41,9 @@
 		"contactdesc": "If you've got any question or doubt on logistics, feel free to reach out at <a href='mailto:mariaandmartino@gmail.com' target ='_top' >mariaandmartino@gmail.com</a>."
 		},
 	"it-IT":{
+		"giftdesc2": "Se preferisci farci un regalo clicca qui sotto. Doneremo il 50% dei nostri regali in beneficenza.",
+		"directgift": "Oppure mandaci un pensiero",
+		"donate": "Dona",
 		"form":"https://docs.google.com/forms/d/18913H0MUPSFzhFNAoENNDOXuDy9p-mgvNYAyvOykId4/viewform?embedded=true",
 		"title": "24 Giugno 2017",
 		"mapoftheisland": "Mappa dell'Isola",
@@ -100,6 +103,9 @@
 
 		},
 	"fr-FR":{
+		"giftdesc2": "Si vous préférez nous donner de l'argent directement, nous en reverserons la moitié à une de ces oeuvres caritatives.",
+		"directgift": "Ou envoyez-nous votre don",
+		"donate": "Faire un don",
 		"form":"https://docs.google.com/forms/d/1gTF58LFmjyS79x6iQ019KEtjZ9qaH43qtjhjWzAbvJo/viewform?embedded=true",
 		"title": "Le 24 juin 2017",
 		"punchline": "Venez participer à cette journée unique ",
